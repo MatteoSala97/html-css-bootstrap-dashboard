@@ -7,8 +7,8 @@ Extra-large     xl	        ≥1200px
 Ex-ex-large	    xxl	        ≥1400px 
 *************************************/
 
-*{
-    /* border: 1px solid red; */
+.red{
+    border: 1px solid red;
 }
 
 html{
