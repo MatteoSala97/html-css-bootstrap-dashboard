@@ -12,7 +12,14 @@ Ex-ex-large	    xxl	        ≥1400px
 }
 
 :root{
-
+    --bg-body: #F8F9FB;
+    --bg-section: #5659f3;
+    --color-process: #e99800;
+    --color-done: #3f8a4b;
+    --color-failed: #c63a47;
+    --color-class: #dc6a4e;
+    --color-icon-grey: #6f747e;
+    --color-icon-white: #ffffff;
 }
 
 .web-app-top{
