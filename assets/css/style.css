@@ -8,9 +8,21 @@ Ex-ex-large	    xxl	        ≥1400px
 *************************************/
 
 *{
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 :root{
-    
+
+}
+
+.web-app-top{
+    height: 80px;
+}
+
+.searchbar{
+    width: 100px;
+}
+
+.web-app-sidebar{
+    height: calc(100vh - 80px)
 }
