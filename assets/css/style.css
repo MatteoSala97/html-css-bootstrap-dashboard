@@ -8,12 +8,19 @@ Ex-ex-large	    xxl	        ≥1400px
 *************************************/
 
 *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+html{
+    font-family: sans-serif;
 }
 
 :root{
     --bg-body: #F8F9FB;
-    --bg-section: #5659f3;
+    --bg-section: #1B72E8;
+    --bg-icon: #165BBA;
+    --bg-sidebar: #051e34;
+    --bg-searchbar: #E5E5E5;
     --color-process: #e99800;
     --color-done: #3f8a4b;
     --color-failed: #c63a47;
@@ -22,14 +29,10 @@ Ex-ex-large	    xxl	        ≥1400px
     --color-icon-white: #ffffff;
 }
 
-.web-app-top{
-    height: 80px;
+.im-round{
+    border-radius: 20px;
 }
 
-.searchbar{
-    width: 100px;
-}
-
-.web-app-sidebar{
-    height: calc(100vh - 80px)
+.im-rounder{
+    border-radius: 40px;
 }
