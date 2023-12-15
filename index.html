@@ -20,16 +20,19 @@
 </head>
 <body>
     <header style="height: 100px; position: relative;">
-        <nav class="navbar navbar-expand-lg bg-white flex-nowrap p-0">
+        <nav class="navbar navbar-expand-lg bg-white flex-nowrap ">
             <div class="container-fluid">
+                <!-- Boolean Logo -->
                 <a class="navbar-brand" href="#">
                     <figure class="m-0">
                         <img class="img-fluid d-lg-none" src="./assets/img/mobile-logo.png" style="width: 70px;" alt="">
                     </figure>
+                    <!-- Boolean logo for large screens -->
                     <figure>
                         <img class="img-fluid d-none d-lg-block " src="./assets/img/logo.svg"style="width: 200px;" alt="">
                     </figure>
                 </a>
+                <!-- Searchbar -->
                 <form class="d-flex bg-secondary-subtle w100 rounded" role="search">
                     <div class="input-group">
                         <span class="input-group-text bg-secondary-subtle" id="magnifying-glass">
@@ -38,7 +41,7 @@
                         <input type="search" class="form-control bg-secondary-subtle" placeholder="Prova a cercare: Lezioni di Laravel..." aria-label="Search" aria-describedby="basic-search">
                     </div>
                 </form>
-                
+                <!-- Buttons with functionalities -->
                 <ul class="nav flex-nowrap mb-lg-0">
                     <li class="nav-item d-none d-lg-block">
                         <a class="nav-link text-secondary active" aria-current="page" href="#">
@@ -60,14 +63,20 @@
                             <i class="fa-solid fa-bell" style="color: var(--color-process);"></i>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end me-1">
-                            <li>
-                                <a class="dropdown-item" href="">1</a>
+                            <li class="">
+                                <a class="dropdown-item" href="">
+                                    Profilo
+                                </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="">2</a>
+                                <a class="dropdown-item" href="">
+                                    Fatturazione
+                                </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="">3</a>
+                                <a class="dropdown-item" href="">
+                                    Logout
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -75,8 +84,9 @@
             </div>
         </nav>
     </header>
-
+    <!-- Main part of the site -->
     <main class="d-flex" style="height: calc(100vh - 100px); position: relative; border: 1px solid black;">
+        <!-- Sidebar with buttons -->
         <div id="sidebar" class="d-flex flex-column flex-shrink-0  position: absolute; h-100" style="width: fit-content;">
             <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
                 <li>
@@ -105,9 +115,33 @@
                 </a>
             </div>
         </div>
-
-        <div class="container">
-            
+        <!-- Middle part of the site with registration form and breadcrumbs -->
+        <div class="w-100 text-light">
+            <div id="blue-section">
+                <!-- Registration form -->
+                <div class="p-2">
+                    Nuovo studente 
+                </div>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb p-3">
+                        <li class="breadcrumb-item">
+                            <a class="text-light text-decoration-none" href="#">Boolean</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a class="text-light text-decoration-none" href="#">Piano blaze</a>
+                        </li>
+                        <li class="breadcrumb-item" aria-current="page">
+                            <a class="text-light text-decoration-none" href="#">3 app</a>
+                        </li>
+                        <li class="breadcrumb-item" aria-current="page">
+                            <a class="text-light text-decoration-none" href="#">+</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+            <div>
+                prossiem classi
+            </div>
         </div>
     </main>
 
