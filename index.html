@@ -76,31 +76,39 @@
         </nav>
     </header>
 
-    <main style="height: calc(100vh - 100px); position: relative; border: 1px solid black;">
+    <main class="d-flex" style="height: calc(100vh - 100px); position: relative; border: 1px solid black;">
         <div id="sidebar" class="d-flex flex-column flex-shrink-0  position: absolute; h-100" style="width: fit-content;">
-        <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
-            <li>
-            <a href="#" class="nav-link py-3 rounded-0">
-                <i class="fa-solid fa-house" style="color: var(--color-icon-white);"></i>
-            </a>
-            </li>
-            <li>
-            <a href="#" class="nav-link py-3 rounded-0">
-                <i class="fa-solid fa-chart-simple" style="color: var(--color-icon-white);"></i>
-            </a>
-            </li>
-            <li>
-            <a href="#" class="nav-link py-3 rounded-0">
-                <i class="fa-solid fa-signal" style="color: var(--color-icon-white);"></i>
-            </a>
-            </li>
-        </ul>
-        <div>
-            <a href="#" class="d-flex align-items-center justify-content-center p-3 text-decoration-none">
-                <i class="fa-solid fa-gear" style="color: var(--color-icon-white);"></i>
-            </a>
+            <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+                <li>
+                    <a href="#" class="nav-link py-3 rounded-0 d-flex align-items-center gap-3">
+                        <i class="fa-solid fa-house" style="color: var(--color-icon-white);"></i>
+                    <span class="d-lg-block d-none" style="color: var( --color-icon-white);">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link py-3 rounded-0 d-flex align-items-center gap-3">
+                        <i class="fa-solid fa-chart-simple" style="color: var(--color-icon-white);"></i>
+                        <span class="d-lg-block d-none" style="color: var( --color-icon-white);">Stats</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link py-3 rounded-0 d-flex align-items-center gap-3">
+                        <i class="fa-solid fa-signal" style="color: var(--color-icon-white);"></i>
+                        <span class="d-lg-block d-none" style="color: var( --color-icon-white);">Signals</span>
+                    </a>
+                </li>
+            </ul>
+            <div>
+                <a href="#" class="d-flex align-items-center justify-content-center p-3 text-decoration-none d-flex align-items-center gap-3">
+                    <i class="fa-solid fa-gear" style="color: var(--color-icon-white);"></i>
+                    <span class="d-lg-block d-none" style="color: var( --color-icon-white);">Settings</span>
+                </a>
+            </div>
         </div>
-  </div>
+
+        <div class="container">
+            
+        </div>
     </main>
 
     
