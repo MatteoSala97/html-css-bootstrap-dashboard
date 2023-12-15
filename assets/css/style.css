@@ -34,14 +34,6 @@ body{
     background-color: var(--bg-body);
 }
 
-.im-round{
-    border-radius: 20px;
-}
-
-.im-rounder{
-    border-radius: 40px;
-}
-
 main #sidebar{
     background-image: url(../img/sidebar-bg.png);
     background-color: var(--bg-sidebar);
