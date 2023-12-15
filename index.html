@@ -119,17 +119,50 @@
         <div class="w-100 text-light">
             <div id="blue-section">
                 <!-- Registration form -->
-                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                    <i class="fa-solid fa-plus"></i>
-                </button>
-
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    ...
+                <div class="ms-3 pt-3">
+                    <span>Nuovo Studente</span>
+                    <button class="btn btn-primary border ms-3" type="button" data-bs-toggle="offcanvas"    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="bd-example m-0 border-0">
+                            <form>
+                              <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleSelect" class="form-label">Select menu</label>
+                                <select class="form-select" id="exampleSelect">
+                                  <option selected="">Open this select menu</option>
+                                  <option value="1">One</option>
+                                  <option value="2">Two</option>
+                                  <option value="3">Three</option>
+                                </select>
+                              </div>
+                              <div class="mb-3">
+                                <label class="form-label" for="customFile">Foto</label>
+                                <input type="file" class="form-control" id="customFile">
+                              </div>
+                              <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Salva</button>
+                              <button type="reset" class="btn btn-warning">Svuota</button>
+                            </form>
+                            </div>
+                    </div>
                 </div>
                 </div>
                 <nav aria-label="breadcrumb">
