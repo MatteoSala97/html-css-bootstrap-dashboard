@@ -44,3 +44,8 @@ main #sidebar{
 #blue-section{
     background-color: var(--bg-section);
 }
+
+.fa-pencil,
+.fa-trash{
+    color: var(--color-icon-grey);
+}
