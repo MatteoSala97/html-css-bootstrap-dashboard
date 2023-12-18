@@ -41,7 +41,7 @@ main #sidebar{
     background-color: var(--bg-section);
 }
 
-.fa-pencil,
-.fa-trash{
-    color: var(--color-icon-grey);
+#sidebar li:hover,
+#gear:hover{
+    background-color: var(--bg-icon);
 }
